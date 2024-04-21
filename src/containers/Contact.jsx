@@ -70,7 +70,7 @@ function Contact() {
         <p>
           N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures !
         </p>
-        <form onSubmit={onSubmit} autoComplete="on">
+        <form onSubmit={onSubmit}>
           <label htmlFor="nom">Nom :</label>
           <input
             type="text"
