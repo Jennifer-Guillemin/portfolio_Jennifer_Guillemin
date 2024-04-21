@@ -1,26 +1,64 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [submitMessage, setSubmitMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formData, setFormData] = useState({
+    nom: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
   const onSubmit = async (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
 
-    formData.append("4e8e0916-389f-486f-92ba-8265294ff568", "YOUR_ACCESS_KEY_HERE");
+    // Empêcher les soumissions multiples
+    if (isSubmitting) return;
+    setIsSubmitting(true);
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+    const data = {
+      ...formData,
+      access_key: "4e8e0916-389f-486f-92ba-8265294ff568",
+    };
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(data),
+      });
 
-    if (res.success) {
-      console.log("Success", res);
+      const responseData = await res.json();
+
+      if (responseData.success) {
+        setSubmitMessage("Votre message a été envoyé avec succès !");
+        setFormData({ nom: "", email: "", message: "" }); // Réinitialiser le formulaire
+      } else {
+        throw new Error(
+          "API returned an error: " + JSON.stringify(responseData)
+        );
+      }
+    } catch (error) {
+      console.error(
+        "There was a problem with your fetch operation:",
+        error.message
+      );
+      setSubmitMessage(
+        "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer."
+      );
+    } finally {
+      setIsSubmitting(false); // Réactiver le bouton après la soumission ou en cas d'erreur
     }
   };
 
@@ -34,13 +72,40 @@ function Contact() {
         </p>
         <form onSubmit={onSubmit}>
           <label htmlFor="nom">Nom :</label>
-          <input type="text" name="nom" id="nom" required />
+          <input
+            type="text"
+            name="nom"
+            id="nom"
+            value={formData.nom}
+            onChange={handleChange}
+            required
+          />
           <label htmlFor="email">Email :</label>
-          <input type="email" name="email" id="email" required />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
           <label htmlFor="message">Message :</label>
-          <textarea name="message" id="message" cols="30" rows="10" required />
-          <input type="submit" value="Envoyer" />
+          <textarea
+            name="message"
+            id="message"
+            value={formData.message}
+            onChange={handleChange}
+            cols="30"
+            rows="10"
+            required
+          />
+          <input
+            type="submit"
+            value={isSubmitting ? "Envoi en cours..." : "Envoyer"}
+            disabled={isSubmitting}
+          />
         </form>
+        {submitMessage && <p>{submitMessage}</p>}
       </div>
     </section>
   );
