@@ -50,9 +50,9 @@ code {
   overflow: hidden;
   white-space: nowrap;
   opacity: 0;
-  animation: typing-h2 1.8s steps(29) forwards;
+  animation: typing-h2 1.7s steps(29) forwards;
   margin: 1px;
-  animation-delay: 0.9s;
+  animation-delay: 0.7s;
 }
 
 .typed_text h3 {
@@ -60,9 +60,9 @@ code {
   overflow: hidden;
   white-space: nowrap;
   opacity: 0;
-  animation: typing-h3 1.8s steps(26) forwards;
+  animation: typing-h3 1.5s steps(26) forwards;
   margin: 1px;
-  animation-delay: 2.7s;
+  animation-delay: 1.9s;
 }
 
 @keyframes typing-h1 {
@@ -111,7 +111,7 @@ code {
 }
 
 #Presentation p {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .line {
@@ -159,6 +159,7 @@ code {
 
 .card p {
   padding-inline: 25px;
+  font-size: 18px;
 }
 
 .card div a {

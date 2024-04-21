@@ -58,7 +58,7 @@ function App() {
                 Ohmyfood est une plateforme mobile-first innovante, permettant
                 aux clients de parcourir les menus de restaurants
                 gastronomiques, composer leur menu et effectuer une réservation
-                en ligne.{" "}
+                en ligne.
               </p>
               <ul className="langages">
                 <li>HTML</li>

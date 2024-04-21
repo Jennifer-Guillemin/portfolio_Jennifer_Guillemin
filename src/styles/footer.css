@@ -3,17 +3,10 @@ footer {
   justify-content: center;
   background-color: #544e52;
   color: white;
-  padding-inline: 6%;
 }
 
 .container {
-  padding: 3%;
-}
-
-#footer h1 {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+  padding: 1%;
 }
 
 #footer p {
@@ -21,31 +14,8 @@ footer {
   font-size: 18px;
 }
 
-.social_links {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  font-size: 25px;
-  gap: 5%;
-  padding: 0;
-}
-
-.social_links li a {
-  padding: 5px 10px 5px 10px;
-  cursor: url("../assets/sakuranoir.png"), auto;
-}
-
-.icon {
-  color: white;
-  cursor: url("../assets/sakuranoir.png"), auto;
-}
-
 @media (max-width: 550px) {
   .container {
     padding: unset;
-  }
-
-  #footer h1 {
-    font-size: 1.5em;
   }
 }

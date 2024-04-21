@@ -12,44 +12,35 @@
 #Contact h1,
 p {
   text-align: center;
+  padding-inline: 5%;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: flex-start;
-}
-
-form input {
-  width: 99%;
-  background-color: #f0f0f0;
-  border: solid 1px;
-  height: 2.5em;
-  margin-bottom: 20px;
-}
-
-form textarea {
-  width: 99%;
-  background-color: #f0f0f0;
-  border: solid 1px;
-  height: 5em;
-  line-height: 2.5em;
-  font-size: 1.2em;
-  margin-bottom: 30px;
-}
-
-input[type="submit"] {
-  width: 80%;
-  background-color: #8f6b74;
+#Contact p {
   font-size: 20px;
-  transition: transform 0.3s ease;
-  margin-left: 50px;
 }
 
-input[type="submit"]:hover {
-  transform: scale(1.06);
+.social_links {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5%;
+  padding: 0;
+}
+
+.social_links li a {
+  padding: 15px 10px 5px 10px;
   cursor: url("../assets/sakuranoir.png"), auto;
+}
+
+.social_links .icon {
+  font-size: 40px;
+}
+
+.icon {
+  color: black;
+  cursor: url("../assets/sakuranoir.png"), auto;
+  font-size: 30px;
+  padding-left: 1%;
 }
 
 @media (max-width: 550px) {
@@ -58,9 +49,5 @@ input[type="submit"]:hover {
   }
   #Contact h1 {
     font-size: 1.5em;
-  }
-
-  input[type="submit"] {
-    margin-left: 30px;
   }
 }
