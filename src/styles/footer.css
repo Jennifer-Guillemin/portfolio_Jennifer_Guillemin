@@ -41,11 +41,11 @@ footer {
 }
 
 @media (max-width: 550px) {
-.container {
-  padding: unset;
-}
+  .container {
+    padding: unset;
+  }
 
   #footer h1 {
-font-size: 1.5em;
+    font-size: 1.5em;
   }
 }

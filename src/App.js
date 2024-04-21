@@ -53,11 +53,7 @@ function App() {
           <div className="all_cards">
             <article className="card">
               <h2>Projet 1</h2>
-              <img
-                className="Ohmyfood"
-                src={Ohmyfood}
-                alt="Une assiette"
-              />
+              <img className="Ohmyfood" src={Ohmyfood} alt="Une assiette" />
               <p>
                 Ohmyfood est une plateforme mobile-first innovante, permettant
                 aux clients de parcourir les menus de restaurants
@@ -69,10 +65,20 @@ function App() {
                 <li>SCSS</li>
               </ul>
               <div className="lien_card">
-                <a href="https://github.com/Jennifer-Guillemin/Ohmyfood" target="_blank" rel="noreferrer" aria-label="lien du repot github Ohmyfood">
+                <a
+                  href="https://github.com/Jennifer-Guillemin/Ohmyfood"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="lien du repot github Ohmyfood"
+                >
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <a href="https://jennifer-guillemin.github.io/Ohmyfood/" target="_blank" rel="noreferrer" aria-label="lien du site en ligne Ohmyfood">
+                <a
+                  href="https://jennifer-guillemin.github.io/Ohmyfood/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="lien du site en ligne Ohmyfood"
+                >
                   <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
@@ -97,10 +103,20 @@ function App() {
                 <li>JAVASCRIPT</li>
               </ul>
               <div className="lien_card">
-                <a href="https://github.com/Jennifer-Guillemin/Print_it" target="_blank" rel="noreferrer" aria-label="lien du repot gihub Print it ">
+                <a
+                  href="https://github.com/Jennifer-Guillemin/Print_it"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="lien du repot gihub Print it "
+                >
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <a href="https://jennifer-guillemin.github.io/Print_it/" target="_blank" rel="noreferrer" aria-label="lien du site en ligne Print it">
+                <a
+                  href="https://jennifer-guillemin.github.io/Print_it/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="lien du site en ligne Print it"
+                >
                   <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>

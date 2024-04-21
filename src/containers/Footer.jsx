@@ -13,13 +13,20 @@ function Footer() {
         </p>
         <ul className="social_links">
           <li>
-            <a href="mailto:jennifer.1707@hotmail.fr" className="no-style" aria-label="mon adresse mail">
+            <a
+              href="mailto:jennifer.1707@hotmail.fr"
+              className="no-style"
+              aria-label="mon adresse mail"
+            >
               <i className="fas fa-envelope icon"></i>
             </a>
           </li>
           <li>
             <a
-              href="https://github.com/Jennifer-Guillemin" target="_blank" rel="noreferrer" aria-label="lien de mon profil Github"
+              href="https://github.com/Jennifer-Guillemin"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="lien de mon profil Github"
               className="no-style"
             >
               <i className="fab fa-github icon"></i>
@@ -27,7 +34,10 @@ function Footer() {
           </li>
           <li>
             <a
-              href="http://www.linkedin.com/in/jennifer-guillemin" target="_blank" rel="noreferrer" aria-label="lien de mon profil Linkedin"
+              href="http://www.linkedin.com/in/jennifer-guillemin"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="lien de mon profil Linkedin"
               className="no-style"
             >
               <i className="fab fa-linkedin-in icon"></i>

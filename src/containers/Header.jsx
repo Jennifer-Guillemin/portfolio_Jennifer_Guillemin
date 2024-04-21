@@ -17,8 +17,15 @@ function Header() {
     <header>
       <nav>
         <img className="logo" src={Logo} alt="mon logo" />
-        <input type="checkbox" id="menu-toggle" checked={isMenuOpen} onChange={handleMenuToggle} />
-        <label htmlFor="menu-toggle" className="menu-icon">&#9776;</label>
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          checked={isMenuOpen}
+          onChange={handleMenuToggle}
+        />
+        <label htmlFor="menu-toggle" className="menu-icon">
+          &#9776;
+        </label>
         <ul>
           <li>
             <a href="#Accueil" className="no-style" onClick={handleLinkClick}>
@@ -26,7 +33,11 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href="#Presentation" className="no-style" onClick={handleLinkClick}>
+            <a
+              href="#Presentation"
+              className="no-style"
+              onClick={handleLinkClick}
+            >
               Présentation
             </a>
           </li>
@@ -36,7 +47,11 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href="#Competences" className="no-style" onClick={handleLinkClick}>
+            <a
+              href="#Competences"
+              className="no-style"
+              onClick={handleLinkClick}
+            >
               Compétences
             </a>
           </li>
@@ -46,7 +61,13 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href={JenniferGuilleminCV} target="_blank" className="no-style" rel="noreferrer" onClick={handleLinkClick}>
+            <a
+              href={JenniferGuilleminCV}
+              target="_blank"
+              className="no-style"
+              rel="noreferrer"
+              onClick={handleLinkClick}
+            >
               Mon cv
             </a>
           </li>

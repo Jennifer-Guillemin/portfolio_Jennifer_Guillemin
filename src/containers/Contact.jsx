@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact() {
   const contact = {
-    email: 'jennifer.1707@hotmail.fr',
-  }
+    email: "jennifer.1707@hotmail.fr",
+  };
 
   return (
     <section id="Contact">

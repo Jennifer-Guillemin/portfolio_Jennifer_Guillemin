@@ -270,7 +270,7 @@ code {
   }
 
   .all_cards {
-      display: flex;
+    display: flex;
     flex-direction: column;
     gap: unset;
   }
@@ -308,7 +308,7 @@ code {
   }
 }
 
-@media (min-width:481px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 769px) {
   #Accueil .typed_text {
     margin-left: 5%;
     margin-right: 5%;
@@ -329,9 +329,9 @@ code {
     flex-direction: column;
   }
 
-.card {
-  width: 100%;
-}
+  .card {
+    width: 100%;
+  }
 
   #Competences {
     padding: 60px;

@@ -53,12 +53,12 @@ nav li a:hover {
 }
 
 @media (max-width: 600px) {
-nav .menu-icon {
-  display: flex;
-  align-items: center;
-  padding-right: 5%;
-  font-size: 40px;
-}
+  nav .menu-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+    font-size: 40px;
+  }
 
   .menu-icon {
     display: block;
@@ -97,7 +97,7 @@ nav .menu-icon {
   }
 }
 
-@media (min-width:600px) and (max-width: 880px) {
+@media (min-width: 600px) and (max-width: 880px) {
   nav {
     column-gap: unset;
   }
