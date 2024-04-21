@@ -1,0 +1,66 @@
+#Contact {
+  display: flex;
+  justify-content: center;
+  background-color: #bd919c;
+  padding: 3%;
+}
+
+#Contact h1 {
+  font-size: 2em;
+}
+
+#Contact h1,
+p {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+
+form input {
+  width: 99%;
+  background-color: #f0f0f0;
+  border: solid 1px;
+  height: 2.5em;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  width: 99%;
+  background-color: #f0f0f0;
+  border: solid 1px;
+  height: 5em;
+  line-height: 2.5em;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+input[type="submit"] {
+  width: 80%;
+  background-color: #8f6b74;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+  margin-left: 50px;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.06);
+  cursor: url("../assets/sakuranoir.png"), auto;
+}
+
+@media (max-width: 550px) {
+  #Contact {
+    padding: 25px;
+  }
+  #Contact h1 {
+    font-size: 1.5em;
+  }
+
+  input[type="submit"] {
+    margin-left: 30px;
+  }
+}
