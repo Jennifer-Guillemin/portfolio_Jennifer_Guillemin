@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.e5a9fe44.css",
-    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.25e6c8c2.js",
+    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.d055bd53.css",
+    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.01aa3073.js",
     "static/js/453.1407b060.chunk.js": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js",
     "static/media/bouquet.png": "/portfolio_Jennifer_Guillemin/static/media/bouquet.2030f54515eaea9204ba.png",
     "static/media/Jennifer_Guillemin_cv.pdf": "/portfolio_Jennifer_Guillemin/static/media/Jennifer_Guillemin_cv.fd1b22eea641c634baf0.pdf",
@@ -9,12 +9,12 @@
     "static/media/printit.webp": "/portfolio_Jennifer_Guillemin/static/media/printit.098f94d5b77acc879599.webp",
     "static/media/logo.jpg": "/portfolio_Jennifer_Guillemin/static/media/logo.ec6a7b10593b93369202.jpg",
     "index.html": "/portfolio_Jennifer_Guillemin/index.html",
-    "main.e5a9fe44.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.e5a9fe44.css.map",
-    "main.25e6c8c2.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.25e6c8c2.js.map",
+    "main.d055bd53.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.d055bd53.css.map",
+    "main.01aa3073.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.01aa3073.js.map",
     "453.1407b060.chunk.js.map": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5a9fe44.css",
-    "static/js/main.25e6c8c2.js"
+    "static/css/main.d055bd53.css",
+    "static/js/main.01aa3073.js"
   ]
 }
