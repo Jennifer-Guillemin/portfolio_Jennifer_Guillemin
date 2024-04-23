@@ -4,6 +4,7 @@ import './styles/index.css';
 import './styles/header.css';
 import './styles/contact.css';
 import './styles/footer.css';
+import './assets/logo.jpg';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
