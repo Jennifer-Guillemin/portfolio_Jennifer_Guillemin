@@ -36,7 +36,6 @@ code {
   margin-right: 10%;
   color: white;
 }
-
 .typed_text h1 {
   font-size: 48px;
   overflow: hidden;
@@ -44,7 +43,6 @@ code {
   animation: typing-h1 0.6s steps(9) forwards;
   margin: 1px;
 }
-
 .typed_text h2 {
   font-size: 48px;
   overflow: hidden;
@@ -54,7 +52,6 @@ code {
   margin: 1px;
   animation-delay: 0.7s;
 }
-
 .typed_text h3 {
   font-size: 48px;
   overflow: hidden;
@@ -105,9 +102,17 @@ code {
   padding: 5%;
   background-color: #f5f5f5;
 }
-
+#Presentation .Apropos {
+  display: flex;
+  flex-direction: row;
+}
 #Presentation h1 {
   font-size: 2em;
+}
+
+.GifDev {
+  width: 300px;
+  padding-top: 26%;
 }
 
 #Presentation p {
@@ -127,16 +132,18 @@ code {
   display: flex;
   justify-content: center;
 }
-
 #Projets h1 {
   text-align: center;
   font-size: 2em;
 }
 
 .all_cards {
-  display: flex;
-  flex-direction: row;
-  gap: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  column-gap: 5%;
+  row-gap: 2%;
+  padding-bottom: 5%;
 }
 
 .card {
@@ -144,28 +151,37 @@ code {
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
-  width: 90%;
-  max-width: 480px;
-  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.05);
+  min-width: 350px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
   border-radius: 25px;
   transition: transform 0.3s ease;
   z-index: 0;
 }
-
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
   z-index: 0;
 }
-
 .card p {
   padding-inline: 25px;
   font-size: 18px;
 }
-
 .card div a {
   padding-inline: 10px;
   font-size: 20px;
   color: black;
+}
+
+.RidingCities {
+  width: 90%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.Booki {
+  width: 90%;
+  height: auto;
+  border-radius: 25px;
+  border: 1px solid;
 }
 
 .Ohmyfood {
@@ -175,6 +191,12 @@ code {
 }
 
 .Print-it {
+  width: 90%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.NinaCarducci {
   width: 90%;
   height: auto;
   border-radius: 25px;
@@ -197,7 +219,6 @@ code {
   padding: 5%;
   background-color: #f5f5f5;
 }
-
 #Competences h1 {
   display: flex;
   justify-content: center;
@@ -237,15 +258,12 @@ code {
     margin-left: 5%;
     margin-right: 5%;
   }
-
   .typed_text h1 {
     font-size: 19px;
   }
-
   .typed_text h2 {
     font-size: 19px;
   }
-
   .typed_text h3 {
     font-size: 19px;
   }
@@ -253,11 +271,19 @@ code {
   #Presentation {
     padding: 25px;
   }
+  #Presentation .Apropos {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .GifDev {
+    width: 270px;
+    padding-top: 0%;
+  }
 
   #Presentation h1 {
     font-size: 1.5em;
   }
-
   #Presentation p {
     font-size: 18px;
   }
@@ -265,36 +291,45 @@ code {
   #Projets {
     padding: 25px;
   }
-
   #Projets h1 {
     font-size: 1.5em;
   }
 
   .all_cards {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     gap: unset;
   }
-
   .card {
-    width: 280px;
+    min-width: 280px;
     margin-bottom: 10%;
   }
-
   .card:hover {
     transform: scale(1.05);
   }
-
   .card h2 {
     font-size: 1em;
   }
 
+  .RidingCities {
+    width: 225px;
+  }
+
+  .Booki {
+    width: 225px;
+  }
+
   .Ohmyfood {
-    width: 260px;
+    width: 225px;
   }
 
   .Print-it {
-    width: 260px;
+    width: 225px;
+  }
+  
+  .NinaCarducci {
+    width: 225px;
   }
 
   #Competences {
@@ -302,6 +337,10 @@ code {
   }
   #Competences h1 {
     font-size: 1.5em;
+  }
+
+  .progress-container .label {
+    font-size: 16px;
   }
 
   #footer {
@@ -325,13 +364,21 @@ code {
     font-size: 28px;
   }
 
-  .all_cards {
+  #Presentation .Apropos {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
+  .GifDev {
+    padding-top: 0%;
+  }
+
+  .all_cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   .card {
-    width: 100%;
+    width: 95%;
   }
 
   #Competences {
