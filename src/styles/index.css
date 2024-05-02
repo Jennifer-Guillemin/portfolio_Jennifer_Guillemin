@@ -6,6 +6,10 @@ a {
   cursor: url("../assets/sakuranoir.png"), auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -31,68 +35,89 @@ code {
 }
 
 #Accueil .typed_text {
+  width: 85%;
   text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
   color: white;
 }
 .typed_text h1 {
   font-size: 48px;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing-h1 0.6s steps(9) forwards;
+  animation: typing-h1 11s steps(18) infinite;
   margin: 1px;
 }
+
 .typed_text h2 {
   font-size: 48px;
   overflow: hidden;
   white-space: nowrap;
-  opacity: 0;
-  animation: typing-h2 1.7s steps(29) forwards;
+  animation: typing-h2 11s steps(58) infinite;
   margin: 1px;
-  animation-delay: 0.7s;
 }
+
 .typed_text h3 {
   font-size: 48px;
   overflow: hidden;
   white-space: nowrap;
-  opacity: 0;
-  animation: typing-h3 1.6s steps(26) forwards;
+  animation: typing-h3 11s steps(52) infinite;
   margin: 1px;
-  animation-delay: 2.3s;
 }
 
 @keyframes typing-h1 {
-  from {
+  0% {
     width: 0;
   }
-
-  to {
-    width: 35%;
+  6% {
+    width: 37%;
+  }
+  94% {
+    width: 37%;
+  }
+  100% {
+    width: 0;
   }
 }
 
 @keyframes typing-h2 {
-  from {
+  0% {
     width: 0;
-    opacity: 1;
   }
-
-  to {
+  6% {
+    width: 0;
+  }
+  25% {
     width: 95%;
-    opacity: 1;
+  }
+  75% {
+    width: 95%;
+  }
+  93% {
+    width: 0;
+  }
+  100% {
+    width: 0;
   }
 }
 
 @keyframes typing-h3 {
-  from {
+  0% {
     width: 0;
-    opacity: 1;
   }
-
-  to {
+  25% {
+    width: 0;
+  }
+  45% {
     width: 80%;
-    opacity: 1;
+  }
+  55% {
+    width: 80%;
+  }
+  75% {
+    width: 0%;
+  }
+  100% {
+    width: 0;
   }
 }
 
@@ -129,7 +154,7 @@ code {
 
 #Projets {
   padding: 5%;
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 #Projets h1 {
@@ -219,8 +244,9 @@ code {
   padding: 5%;
   background-color: #f5f5f5;
 }
+
 #Competences h1 {
-  display: flex;
+  display: grid;
   justify-content: center;
   font-size: 2em;
 }
@@ -250,13 +276,13 @@ code {
   height: 40px;
 }
 
+/***** Mobile *****/
 @media (max-width: 480px) {
   #Accueil {
     min-height: 65vh;
   }
   #Accueil .typed_text {
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 90%;
   }
   .typed_text h1 {
     font-size: 19px;
@@ -276,16 +302,17 @@ code {
     flex-direction: column-reverse;
   }
 
-  .GifDev {
-    width: 270px;
-    padding-top: 0%;
-  }
-
   #Presentation h1 {
     font-size: 1.5em;
   }
   #Presentation p {
     font-size: 18px;
+    padding-inline: unset;
+  }
+
+   .GifDev {
+    width: 270px;
+    padding-top: 0%;
   }
 
   #Projets {
@@ -305,6 +332,9 @@ code {
     min-width: 280px;
     margin-bottom: 10%;
   }
+  .card p {
+    padding-inline: 15px;
+ }
   .card:hover {
     transform: scale(1.05);
   }
@@ -327,7 +357,7 @@ code {
   .Print-it {
     width: 225px;
   }
-  
+
   .NinaCarducci {
     width: 225px;
   }
@@ -346,12 +376,14 @@ code {
   #footer {
     padding: 25px;
   }
+  #footer p {
+    padding-inline: unset;
+  }
 }
 
-@media (min-width: 481px) and (max-width: 769px) {
+@media (min-width: 481px) and (max-width: 815px) {
   #Accueil .typed_text {
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 86%;
   }
 
   .typed_text h1 {
@@ -376,6 +408,7 @@ code {
   .all_cards {
     display: grid;
     grid-template-columns: 1fr;
+    gap: unset;
   }
   .card {
     width: 95%;

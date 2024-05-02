@@ -50,4 +50,7 @@ p {
   #Contact h1 {
     font-size: 1.5em;
   }
+  #Contact p {
+    padding-inline: unset;
+  }
 }
