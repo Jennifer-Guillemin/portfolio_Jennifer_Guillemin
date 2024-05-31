@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import JenniferGuilleminCV from "../assets/Jennifer_Guillemin_cv.pdf";
 import Logo from "../assets/logo.jpg";
+import "../styles/header.css";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -12,6 +14,18 @@ function Header() {
   const handleLinkClick = () => {
     setIsMenuOpen(false);
   };
+
+  const toggleTheme = () => {
+    setIsDarkTheme(!isDarkTheme);
+  };
+
+  useEffect(() => {
+    if (isDarkTheme) {
+      document.body.classList.add("dark-theme");
+    } else {
+      document.body.classList.remove("dark-theme");
+    }
+  }, [isDarkTheme]);
 
   return (
     <header>
@@ -70,6 +84,22 @@ function Header() {
             >
               Mon cv
             </a>
+          </li>
+          <li>
+            <label className="toggle-switch" onClick={handleLinkClick}>
+              <input
+                type="checkbox"
+                id="toggle"
+                className="toggle-switch-checkbox"
+                onChange={toggleTheme}
+                checked={isDarkTheme}
+              />
+              <span className="toggle-switch-bar">
+                <i className="fa-solid fa-moon moon-icon"></i>
+                <span className="circle_white"></span>
+                <i className="fa-solid fa-sun sun-icon"></i>
+              </span>
+            </label>
           </li>
         </ul>
       </nav>

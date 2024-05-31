@@ -1,7 +1,8 @@
 #Contact {
   display: flex;
   justify-content: center;
-  background-color: #bd919c;
+  color: var(--text-color);
+  background-color: var(--fourth-color);
   padding: 3%;
 }
 
@@ -29,7 +30,6 @@ p {
 
 .social_links li a {
   padding: 15px 10px 5px 10px;
-  cursor: url("../assets/sakuranoir.png"), auto;
 }
 
 .social_links .icon {
@@ -37,7 +37,7 @@ p {
 }
 
 .icon {
-  color: black;
+  color: var(--text-color);
   cursor: url("../assets/sakuranoir.png"), auto;
   font-size: 30px;
   padding-left: 1%;

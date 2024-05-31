@@ -1,0 +1,57 @@
+#Competences {
+  padding: 5%;
+  color: var(--text-color);
+  background-color: var(--third-color);
+}
+
+#Competences h1 {
+  display: grid;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.progress-container {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  background-color: #bdbdbd;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  background-color: var(--fourth-color);
+  border-radius: 5px;
+  text-align: right;
+  font-weight: 600;
+  padding-right: 10px;
+  line-height: 40px;
+  height: 40px;
+}
+
+/***** Mobile *****/
+@media (max-width: 480px) {
+  #Competences {
+    padding: 25px;
+  }
+  #Competences h1 {
+    font-size: 1.5em;
+  }
+
+  .progress-container .label {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 815px) {
+  #Competences {
+    padding: 60px;
+  }
+}

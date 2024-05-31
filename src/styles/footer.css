@@ -1,7 +1,7 @@
 footer {
   display: flex;
   justify-content: center;
-  background-color: #544e52;
+  background-color: #121212;
   color: white;
 }
 
@@ -12,6 +12,16 @@ footer {
 #footer p {
   text-align: center;
   font-size: 18px;
+}
+
+/***** Mobile *****/
+@media (max-width: 480px) {
+  #footer {
+    padding: 25px;
+  }
+  #footer p {
+    padding-inline: unset;
+  }
 }
 
 @media (max-width: 550px) {

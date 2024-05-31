@@ -1,19 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './styles/index.css';
-import './styles/header.css';
-import './styles/contact.css';
-import './styles/footer.css';
-import './assets/logo.jpg';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter as Router } from "react-router-dom";
+import Accueil from "./pages/Accueil";
+import Header from "./composants/Header";
+import Contact from "./composants/Contact";
+import Footer from "./composants/Footer";
+import "./styles/app.css";
+import reportWebVitals from "./reportWebVitals";
 
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById("root");
+const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Header />
+      <Accueil />
+      <Contact />
+      <Footer />
+    </Router>
   </React.StrictMode>
 );
 
