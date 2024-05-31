@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.b46c0f4c.css",
-    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.e01b353a.js",
+    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.b34d90b5.css",
+    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.f25a51f9.js",
     "static/js/453.1407b060.chunk.js": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js",
     "static/media/bouquet.png": "/portfolio_Jennifer_Guillemin/static/media/bouquet.2030f54515eaea9204ba.png",
+    "static/media/bouquetsombre.png": "/portfolio_Jennifer_Guillemin/static/media/bouquetsombre.1e174f1805bddc03ff1b.png",
     "static/media/Jennifer_Guillemin_cv.pdf": "/portfolio_Jennifer_Guillemin/static/media/Jennifer_Guillemin_cv.fd1b22eea641c634baf0.pdf",
     "static/media/ridingcities.PNG": "/portfolio_Jennifer_Guillemin/static/media/ridingcities.7b5f921cb2b6b7a903ff.PNG",
     "static/media/ninacarducci.PNG": "/portfolio_Jennifer_Guillemin/static/media/ninacarducci.4d630907b1776d10e994.PNG",
@@ -13,12 +14,12 @@
     "static/media/booki.PNG": "/portfolio_Jennifer_Guillemin/static/media/booki.5a2d320733006b5ed356.PNG",
     "static/media/logo.jpg": "/portfolio_Jennifer_Guillemin/static/media/logo.ec6a7b10593b93369202.jpg",
     "index.html": "/portfolio_Jennifer_Guillemin/index.html",
-    "main.b46c0f4c.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.b46c0f4c.css.map",
-    "main.e01b353a.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.e01b353a.js.map",
+    "main.b34d90b5.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.b34d90b5.css.map",
+    "main.f25a51f9.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.f25a51f9.js.map",
     "453.1407b060.chunk.js.map": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b46c0f4c.css",
-    "static/js/main.e01b353a.js"
+    "static/css/main.b34d90b5.css",
+    "static/js/main.f25a51f9.js"
   ]
 }
