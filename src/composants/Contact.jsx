@@ -17,7 +17,11 @@ function Contact() {
             className="no-style"
             aria-label="mon adresse mail"
           >
-            <i className="fas fa-envelope icon"></i>
+            <lord-icon
+              src="https://cdn.lordicon.com/nqisoomz.json"
+              trigger="hover"
+              stroke="bold"
+            ></lord-icon>
           </a>
         </p>
         <ul className="social_links">

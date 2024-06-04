@@ -39,9 +39,17 @@
   font-size: 18px;
 }
 .card div a {
-  padding-inline: 10px;
-  font-size: 20px;
+  padding-inline: 4px;
+  font-size: 28px;
+  vertical-align: middle;
   color: var(--text-color);
+  cursor: url("../assets/sakuranoir.png"), auto;
+}
+
+lord-icon {
+  width: 20px;
+  height: 30px;
+  vertical-align: middle;
   cursor: url("../assets/sakuranoir.png"), auto;
 }
 
@@ -79,10 +87,12 @@
 .langages {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 10%;
   padding: 0;
   margin-top: 0px;
   margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .lien_card {

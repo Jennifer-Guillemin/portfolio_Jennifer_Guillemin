@@ -41,7 +41,11 @@ function Projets() {
                 rel="noreferrer"
                 aria-label="lien du site en ligne Riding Cities"
               >
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                <lord-icon
+                  src="https://cdn.lordicon.com/fmjvulyw.json"
+                  trigger="hover"
+                  colors="primary:#121331,secondary:#ebe6ef,tertiary:#000000,quaternary:#1663c7,quinary:#f9c9c0,senary:#f24c00"
+                ></lord-icon>
               </a>
             </div>
           </article>
@@ -77,7 +81,11 @@ function Projets() {
                 rel="noreferrer"
                 aria-label="lien du site en ligne Booki"
               >
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                <lord-icon
+                  src="https://cdn.lordicon.com/fmjvulyw.json"
+                  trigger="hover"
+                  colors="primary:#121331,secondary:#ebe6ef,tertiary:#000000,quaternary:#1663c7,quinary:#f9c9c0,senary:#f24c00"
+                ></lord-icon>
               </a>
             </div>
           </article>
@@ -109,7 +117,11 @@ function Projets() {
                 rel="noreferrer"
                 aria-label="lien du site en ligne Ohmyfood"
               >
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                <lord-icon
+                  src="https://cdn.lordicon.com/fmjvulyw.json"
+                  trigger="hover"
+                  colors="primary:#121331,secondary:#ebe6ef,tertiary:#000000,quaternary:#1663c7,quinary:#f9c9c0,senary:#f24c00"
+                ></lord-icon>
               </a>
             </div>
           </article>
@@ -147,7 +159,11 @@ function Projets() {
                 rel="noreferrer"
                 aria-label="lien du site en ligne Print it"
               >
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                <lord-icon
+                  src="https://cdn.lordicon.com/fmjvulyw.json"
+                  trigger="hover"
+                  colors="primary:#121331,secondary:#ebe6ef,tertiary:#000000,quaternary:#1663c7,quinary:#f9c9c0,senary:#f24c00"
+                ></lord-icon>
               </a>
             </div>
           </article>
@@ -185,7 +201,11 @@ function Projets() {
                 rel="noreferrer"
                 aria-label="lien du site en ligne Nina Carducci"
               >
-                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                <lord-icon
+                  src="https://cdn.lordicon.com/fmjvulyw.json"
+                  trigger="hover"
+                  colors="primary:#121331,secondary:#ebe6ef,tertiary:#000000,quaternary:#1663c7,quinary:#f9c9c0,senary:#f24c00"
+                ></lord-icon>
               </a>
             </div>
           </article>
