@@ -1,7 +1,7 @@
 .no-style {
   text-decoration: none;
   color: var(--text-color);
-  cursor: url("../assets/sakuranoir.png"), auto;
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
 }
 
 .logo {
@@ -66,24 +66,24 @@
 }
 
 :root {
-  --cursor: url("../assets/sakura.png"), auto;
+  --cursor: url("../assets/logo&icon/sakura.png"), auto;
   --primary-color: white;
   --secondary-color: #121212;
   --third-color: #f5f5f5;
   --fourth-color: #bd919c;
   --text-color: black;
-  --background-image: url("../assets/bouquet.png");
+  --background-image: url("../assets/images/bouquet.png");
   --webkit-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
 }
 
 .dark-theme {
-  --cursor: url("../assets/sakurablanc.png"), auto;
+  --cursor: url("../assets/logo&icon/sakurablanc.png"), auto;
   --primary-color: #121212;
   --secondary-color: white;
   --third-color: #160b48;
   --fourth-color: #6a0067;
   --text-color: white;
-  --background-image: url("../assets/bouquetsombre.png");
+  --background-image: url("../assets/images/bouquetsombre.png");
   --webkit-box-shadow: 0 6px 30px rgb(255, 244, 244);
 }
 
@@ -93,7 +93,7 @@
   justify-content: center;
   width: 30px;
   height: 30px;
-  cursor: url("../assets/sakuranoir.png"), auto;
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
 }
 
 nav {

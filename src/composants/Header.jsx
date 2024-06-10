@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import JenniferGuilleminCV from "../assets/Jennifer_Guillemin_cv.pdf";
-import Logo from "../assets/logo.jpg";
+import JenniferGuilleminCV from "../assets/Jennifer_Guillemin_CV.pdf";
+import Logo from "../assets/logo&icon/logo.jpg";
 import "../styles/header.css";
 
 function Header() {

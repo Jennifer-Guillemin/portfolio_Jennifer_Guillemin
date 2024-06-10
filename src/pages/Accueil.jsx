@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import GifDev from "../assets/Dev.gif";
 import Projets from "../composants/Projets";
 import Skills from "../composants/Skills";
 
 function Accueil() {
+  useEffect(() => {
+    const aproposElement = document.querySelector(".Apropos");
+    //si aucun élément n'est trouvé, arrêt de l'exécution de la fonction
+    if (!aproposElement) return;
+
+    const observer = new IntersectionObserver(
+      ([entry], observer) => {
+        // Vérifie si l'élément est en intersection avec le viewport
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          // Arrête d'observer l'élément après lui avoir ajouté la classe
+          observer.unobserve(entry.target);
+        }
+      },
+      { threshold: 0.1 } // Déclenche le rappel lorsque 10% de l'élément est visible
+    );
+    observer.observe(aproposElement); // Commence à observer l'élément sélectionné
+    // Nettoie la fonction d'effet en arrêtant l'observation de l'élément
+    return () => observer.disconnect();
+  }, []); // Déclenche l'effet seulement la première fois qu'on affiche le composant
+
   return (
     <div>
       <section id="Accueil">
@@ -38,6 +59,15 @@ function Accueil() {
         </div>
       </section>
       <Projets />
+      <p className="citation">
+        "Les développeurs web créent des mondes numériques où les idées prennent
+        vie et les possibilités sont infinies."
+        <lord-icon
+          src="https://cdn.lordicon.com/ourpesbe.json"
+          trigger="hover"
+          stroke="bold"
+        ></lord-icon>
+      </p>
       <Skills />
     </div>
   );

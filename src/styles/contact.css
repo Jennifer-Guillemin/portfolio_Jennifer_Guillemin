@@ -45,7 +45,7 @@ lord-icon {
 
 .icon {
   color: var(--text-color);
-  cursor: url("../assets/sakuranoir.png"), auto;
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
   font-size: 30px;
   padding-left: 1%;
 }

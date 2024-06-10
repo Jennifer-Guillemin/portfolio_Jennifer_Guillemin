@@ -1,12 +1,34 @@
-import React from "react";
-import RidingCities from "../assets/ridingcities.PNG";
-import Booki from "../assets/booki.PNG";
-import Ohmyfood from "../assets/ohmyfood.webp";
-import Printit from "../assets/printit.webp";
-import NinaCarducci from "../assets/ninacarducci.PNG";
+import React, { useEffect } from "react";
+import RidingCities from "../assets/images/ridingcities.PNG";
+import Booki from "../assets/images/booki.PNG";
+import Ohmyfood from "../assets/images/Ohmyfood.jpg";
+import Printit from "../assets/images/printit.webp";
+import NinaCarducci from "../assets/images/ninacarducci.PNG";
 import "../styles/projets.css";
 
 function Projets() {
+  useEffect(() => {
+    const aproposElement = document.querySelector("#Projets");
+
+    if (!aproposElement) return;
+
+    const observer = new IntersectionObserver(
+      ([entry], observer) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          // Arrêter d'observer l'élément après avoir ajouté la classe
+          observer.unobserve(entry.target);
+        }
+      },
+      { threshold: 0.1 } // Déclenche le rappel lorsque 10% de l'élément est visible
+    );
+
+    // Commencer à observer l'élément sélectionné
+    observer.observe(aproposElement);
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section id="Projets">
       <div>

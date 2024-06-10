@@ -5,6 +5,18 @@
   color: var(--text-color);
   background-color: var(--primary-color);
 }
+
+#Projets {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+#Projets.visible {
+  opacity: 1;
+  transform: none;
+}
+
 #Projets h1 {
   text-align: center;
   font-size: 2em;
@@ -43,14 +55,18 @@
   font-size: 28px;
   vertical-align: middle;
   color: var(--text-color);
-  cursor: url("../assets/sakuranoir.png"), auto;
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
+}
+
+.fa-brands {
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
 }
 
 lord-icon {
   width: 20px;
   height: 30px;
   vertical-align: middle;
-  cursor: url("../assets/sakuranoir.png"), auto;
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
 }
 
 .RidingCities {
