@@ -8,7 +8,7 @@ import "../styles/projets.css";
 
 function Projets() {
   useEffect(() => {
-    const aproposElement = document.querySelector("#Projets");
+    const aproposElement = document.querySelector(".apparition");
 
     if (!aproposElement) return;
 
@@ -31,7 +31,7 @@ function Projets() {
 
   return (
     <section id="Projets">
-      <div>
+      <div className="apparition">
         <h1>Mes projets</h1>
         <div className="line"></div>
         <div className="all_cards">
