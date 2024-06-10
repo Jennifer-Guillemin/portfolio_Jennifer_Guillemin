@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.16498311.css",
-    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.fe566e22.js",
+    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.889dd579.css",
+    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.f030c71b.js",
     "static/js/453.1407b060.chunk.js": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js",
     "static/media/bouquet.png": "/portfolio_Jennifer_Guillemin/static/media/bouquet.2030f54515eaea9204ba.png",
     "static/media/bouquetsombre.png": "/portfolio_Jennifer_Guillemin/static/media/bouquetsombre.1e174f1805bddc03ff1b.png",
-    "static/media/Jennifer_Guillemin_cv.pdf": "/portfolio_Jennifer_Guillemin/static/media/Jennifer_Guillemin_cv.fd1b22eea641c634baf0.pdf",
+    "static/media/Jennifer_Guillemin_CV.pdf": "/portfolio_Jennifer_Guillemin/static/media/Jennifer_Guillemin_CV.f292342fbfb4d5533ae7.pdf",
+    "static/media/Ohmyfood.jpg": "/portfolio_Jennifer_Guillemin/static/media/Ohmyfood.7117d0406a6abbc82d57.jpg",
     "static/media/ridingcities.PNG": "/portfolio_Jennifer_Guillemin/static/media/ridingcities.7b5f921cb2b6b7a903ff.PNG",
     "static/media/ninacarducci.PNG": "/portfolio_Jennifer_Guillemin/static/media/ninacarducci.4d630907b1776d10e994.PNG",
     "static/media/Dev.gif": "/portfolio_Jennifer_Guillemin/static/media/Dev.0dcb6434ccaf85c82b58.gif",
-    "static/media/ohmyfood.webp": "/portfolio_Jennifer_Guillemin/static/media/ohmyfood.1a902d7b138aa719cffe.webp",
     "static/media/printit.webp": "/portfolio_Jennifer_Guillemin/static/media/printit.098f94d5b77acc879599.webp",
     "static/media/booki.PNG": "/portfolio_Jennifer_Guillemin/static/media/booki.5a2d320733006b5ed356.PNG",
     "static/media/logo.jpg": "/portfolio_Jennifer_Guillemin/static/media/logo.ec6a7b10593b93369202.jpg",
     "index.html": "/portfolio_Jennifer_Guillemin/index.html",
-    "main.16498311.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.16498311.css.map",
-    "main.fe566e22.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.fe566e22.js.map",
+    "main.889dd579.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.889dd579.css.map",
+    "main.f030c71b.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.f030c71b.js.map",
     "453.1407b060.chunk.js.map": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16498311.css",
-    "static/js/main.fe566e22.js"
+    "static/css/main.889dd579.css",
+    "static/js/main.f030c71b.js"
   ]
 }
