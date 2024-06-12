@@ -27,7 +27,6 @@ function Contact() {
         <ul className="social_links">
           <li>
             <p>
-              {" "}
               Mon profil GitHub
               <a
                 href="https://github.com/Jennifer-Guillemin"

@@ -3,23 +3,20 @@ import "../styles/skills.css";
 
 function Skills() {
   useEffect(() => {
-    const aproposElement = document.querySelector("#Competences");
+    const competencesElement = document.querySelector("#Competences");
 
-    if (!aproposElement) return;
+    if (!competencesElement) return;
 
     const observer = new IntersectionObserver(
       ([entry], observer) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("visible");
-          // Arrêter d'observer l'élément après avoir ajouté la classe
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 0.1 } // Déclenche le rappel lorsque 10% de l'élément est visible
+      { threshold: 0.1 }
     );
-
-    // Commencer à observer l'élément sélectionné
-    observer.observe(aproposElement);
+    observer.observe(competencesElement);
 
     return () => observer.disconnect();
   }, []);

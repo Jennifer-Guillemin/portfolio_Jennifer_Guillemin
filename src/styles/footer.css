@@ -4,14 +4,10 @@ footer {
   background-color: #121212;
   color: white;
   cursor: url("../assets/logo&icon/sakurablanc.png"), auto;
-}
-
-.container {
-  cursor: url("../assets/logo&icon/sakurablanc.png"), auto;
   padding: 1%;
 }
 
-#footer p {
+footer p {
   text-align: center;
   font-size: 18px;
   cursor: url("../assets/logo&icon/sakurablanc.png"), auto;
@@ -19,16 +15,17 @@ footer {
 
 /***** Mobile *****/
 @media (max-width: 480px) {
-  #footer {
+  footer {
     padding: 25px;
   }
-  #footer p {
-    padding-inline: unset;
+
+  p {
+    font-size: unset;
   }
 }
 
 @media (max-width: 550px) {
-  .container {
+  footer {
     padding: unset;
   }
 }

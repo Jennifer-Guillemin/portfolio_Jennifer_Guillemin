@@ -36,6 +36,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
+  padding-bottom: 5%;
   min-width: 350px;
   box-shadow: var(--webkit-box-shadow);
   border-radius: 25px;
@@ -58,46 +59,76 @@
   cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
 }
 
-.fa-brands {
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 90%;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: 0.5s ease-out;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
+  z-index: 2;
+}
+
+.container:hover::after {
+  border-radius: 20px;
+  z-index: 1;
+  opacity: 1;
   cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
 }
 
-lord-icon {
-  width: 20px;
-  height: 30px;
-  vertical-align: middle;
+.container::after {
+  content: "";
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("https://i.postimg.cc/9MtT4GZY/view.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+.container .text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 35px;
+  padding: 16px 32px;
   cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
+  z-index: 2;
 }
 
-.RidingCities {
-  width: 90%;
+.container img {
+  width: 100%;
   height: auto;
-  border-radius: 25px;
-}
-
-.Booki {
-  width: 90%;
-  height: auto;
-  border-radius: 25px;
-  border: 1px solid;
-}
-
-.Ohmyfood {
-  width: 90%;
-  height: auto;
-  border-radius: 25px;
-}
-
-.Print-it {
-  width: 90%;
-  height: auto;
-  border-radius: 25px;
-}
-
-.NinaCarducci {
-  width: 90%;
-  height: auto;
-  border-radius: 25px;
+  border-radius: 20px;
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
+  box-shadow: var(--webkit-box-shadow);
+  z-index: 0;
 }
 
 .langages {
@@ -111,10 +142,24 @@ lord-icon {
   font-size: 18px;
 }
 
-.lien_card {
-  padding-bottom: 15px;
+.link_repo_github {
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
+  box-shadow:var(--webkit-box-shadow) ,inset 0 0 8px black;
+  border-radius: 15px;
 }
 
+.link_repo_github p {
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
+  padding-inline: 18px;
+  margin: 15px;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.fa-brands {
+  cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
+  margin-left: 5px;
+}
 /***** Mobile *****/
 @media (max-width: 480px) {
   #Projets {
@@ -132,7 +177,7 @@ lord-icon {
   }
   .card {
     min-width: 280px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   .card p {
     padding-inline: 15px;
