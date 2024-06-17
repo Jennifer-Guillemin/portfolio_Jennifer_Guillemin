@@ -5,7 +5,6 @@ import Ohmyfood from "../assets/images/Ohmyfood.jpg";
 import Printit from "../assets/images/printit.webp";
 import NinaCarducci from "../assets/images/ninacarducci.PNG";
 import TextHover from "./TextHover";
-import RepoGithub from "./RepoGithub";
 import "../styles/projets.css";
 
 function Projets() {
@@ -44,7 +43,7 @@ function Projets() {
               aria-label="lien du site en ligne Riding Cities"
             >
               <img className="RidingCities" src={RidingCities} alt="Un skate" />
-              <TextHover/>
+              <TextHover />
             </a>
             <p>
               Riding Cities est une association passionnée par la culture skate.
@@ -56,7 +55,37 @@ function Projets() {
               <li>HTML</li>
               <li>CSS</li>
             </ul>
-            <RepoGithub/>
+
+            <div className="links_container">
+              <a
+                className="link_site"
+                href="https://jennifer-guillemin.github.io/Riding-Cities/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du site en ligne Riding Cities"
+              >
+                <p>
+                  Voir le site
+                  <lord-icon
+                    src="https://cdn.lordicon.com/fmjvulyw.json"
+                    trigger="hover"
+                    stroke="bold"
+                  ></lord-icon>
+                </p>
+              </a>
+              <a
+                className="link_repo_github"
+                href="https://github.com/Jennifer-Guillemin/Riding-Cities"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du repo github Riding Cities"
+              >
+                <p>
+                  Repo Github
+                  <i className="fa-brands fa-github"></i>
+                </p>
+              </a>
+            </div>
           </article>
 
           <article className="card">
@@ -73,7 +102,7 @@ function Projets() {
                 src={Booki}
                 alt="aperçu du haut de la page du site Booki"
               />
-              <TextHover/>
+              <TextHover />
             </a>
             <p>
               Booki est un site permettant aux utilisateurs de trouver
@@ -84,7 +113,37 @@ function Projets() {
               <li>HTML</li>
               <li>CSS</li>
             </ul>
-            <RepoGithub/>
+
+            <div className="links_container">
+              <a
+                className="link_site"
+                href="https://jennifer-guillemin.github.io/Booki/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du site en ligne Booki"
+              >
+                <p>
+                  Voir le site
+                  <lord-icon
+                    src="https://cdn.lordicon.com/fmjvulyw.json"
+                    trigger="hover"
+                    stroke="bold"
+                  ></lord-icon>
+                </p>
+              </a>
+              <a
+                className="link_repo_github"
+                href="https://github.com/Jennifer-Guillemin/Booki"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du repo github Booki"
+              >
+                <p>
+                  Repo Github
+                  <i className="fa-brands fa-github"></i>
+                </p>
+              </a>
+            </div>
           </article>
 
           <article className="card">
@@ -97,7 +156,7 @@ function Projets() {
               aria-label="lien du site en ligne Ohmyfood"
             >
               <img className="Ohmyfood" src={Ohmyfood} alt="Une assiette" />
-              <TextHover/>
+              <TextHover />
             </a>
             <p>
               Ohmyfood est une plateforme mobile-first innovante, permettant aux
@@ -108,18 +167,37 @@ function Projets() {
               <li>HTML</li>
               <li>SCSS</li>
             </ul>
-            <a
-              className="link_repo_github"
-              href="https://github.com/Jennifer-Guillemin/Ohmyfood"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="lien du repot github Ohmyfood"
-            >
-              <p>
-                Repo Github
-                <i className="fa-brands fa-github"></i>
-              </p>
-            </a>
+
+            <div className="links_container">
+              <a
+                className="link_site"
+                href="https://jennifer-guillemin.github.io/Ohmyfood/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du site en ligne Ohmyfood"
+              >
+                <p>
+                  Voir le site
+                  <lord-icon
+                    src="https://cdn.lordicon.com/fmjvulyw.json"
+                    trigger="hover"
+                    stroke="bold"
+                  ></lord-icon>
+                </p>
+              </a>
+              <a
+                className="link_repo_github"
+                href="https://github.com/Jennifer-Guillemin/Ohmyfood"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du repot github Ohmyfood"
+              >
+                <p>
+                  Repo Github
+                  <i className="fa-brands fa-github"></i>
+                </p>
+              </a>
+            </div>
           </article>
 
           <article className="card">
@@ -136,7 +214,7 @@ function Projets() {
                 src={Printit}
                 alt="Une palette de couleurs"
               />
-              <TextHover/>
+              <TextHover />
             </a>
             <p>
               Print it est une entreprise familiale d'impression, proposant une
@@ -149,7 +227,37 @@ function Projets() {
               <li>CSS</li>
               <li>JAVASCRIPT</li>
             </ul>
-            <RepoGithub/>
+
+            <div className="links_container">
+              <a
+                className="link_site"
+                href="https://jennifer-guillemin.github.io/Print_it/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du site en ligne Print it"
+              >
+                <p>
+                  Voir le site
+                  <lord-icon
+                    src="https://cdn.lordicon.com/fmjvulyw.json"
+                    trigger="hover"
+                    stroke="bold"
+                  ></lord-icon>
+                </p>
+              </a>
+              <a
+                className="link_repo_github"
+                href="https://github.com/Jennifer-Guillemin/Print_it"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du repo github Print it"
+              >
+                <p>
+                  Repo Github
+                  <i className="fa-brands fa-github"></i>
+                </p>
+              </a>
+            </div>
           </article>
 
           <article className="card">
@@ -166,7 +274,7 @@ function Projets() {
                 src={NinaCarducci}
                 alt="A propos de nina carducci"
               />
-              <TextHover/>
+              <TextHover />
             </a>
             <p>
               Nina Carducci est un site de photographie spécialisé dans les
@@ -179,7 +287,37 @@ function Projets() {
               <li>CSS</li>
               <li>JAVASCRIPT</li>
             </ul>
-            <RepoGithub/>
+
+            <div className="links_container">
+              <a
+                className="link_site"
+                href="https://jennifer-guillemin.github.io/nina-carducci/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du site en ligne Nina Carducci"
+              >
+                <p>
+                  Voir le site
+                  <lord-icon
+                    src="https://cdn.lordicon.com/fmjvulyw.json"
+                    trigger="hover"
+                    stroke="bold"
+                  ></lord-icon>
+                </p>
+              </a>
+              <a
+                className="link_repo_github"
+                href="https://github.com/Jennifer-Guillemin/nina-carducci"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="lien du repo github Nina Carducci"
+              >
+                <p>
+                  Repo Github
+                  <i className="fa-brands fa-github"></i>
+                </p>
+              </a>
+            </div>
           </article>
         </div>
       </div>
