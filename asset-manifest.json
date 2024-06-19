@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.69e5a290.css",
+    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.d920f5b1.css",
     "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.931ccd6e.js",
     "static/js/453.1407b060.chunk.js": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js",
     "static/media/bouquet.png": "/portfolio_Jennifer_Guillemin/static/media/bouquet.2030f54515eaea9204ba.png",
@@ -14,12 +14,12 @@
     "static/media/booki.PNG": "/portfolio_Jennifer_Guillemin/static/media/booki.5a2d320733006b5ed356.PNG",
     "static/media/logo.jpg": "/portfolio_Jennifer_Guillemin/static/media/logo.ec6a7b10593b93369202.jpg",
     "index.html": "/portfolio_Jennifer_Guillemin/index.html",
-    "main.69e5a290.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.69e5a290.css.map",
+    "main.d920f5b1.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.d920f5b1.css.map",
     "main.931ccd6e.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.931ccd6e.js.map",
     "453.1407b060.chunk.js.map": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69e5a290.css",
+    "static/css/main.d920f5b1.css",
     "static/js/main.931ccd6e.js"
   ]
 }
