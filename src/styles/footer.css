@@ -14,18 +14,13 @@ footer p {
 }
 
 /***** Mobile *****/
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   footer {
     padding: 25px;
   }
-
-  p {
-    font-size: unset;
-  }
-}
-
-@media (max-width: 550px) {
-  footer {
-    padding: unset;
+  
+  footer p {
+    font-size: 15px;
+    padding-inline: 5%;
   }
 }

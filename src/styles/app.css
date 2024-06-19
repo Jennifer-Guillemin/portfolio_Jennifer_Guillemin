@@ -118,6 +118,15 @@ body {
   color: var(--text-color);
   background-color: var(--third-color);
 }
+#Presentation h1 {
+  font-size: 2em;
+}
+#Presentation p {
+  font-size: 23px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  padding-inline: 5%;
+}
 #Presentation .Apropos {
   display: flex;
   flex-direction: row;
@@ -133,19 +142,9 @@ body {
   transform: none;
 }
 
-#Presentation h1 {
-  font-size: 2em;
-}
-
 .GifDev {
   width: 300px;
   padding-top: 26%;
-}
-
-#Presentation p {
-  font-size: 23px;
-  font-family: "Playfair Display", serif;
-  font-style: italic;
 }
 
 .line {
@@ -160,6 +159,7 @@ body {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: 23px;
+  text-align: center;
   padding: 3.5%;
   margin-top: 5%;
   margin-bottom: 0;
@@ -178,7 +178,7 @@ body {
   width: 45px;
   height: 45px;
   vertical-align: middle;
-  margin-left: 8px;
+  margin-left: 5px;
 }
 
 /***** Mobile *****/

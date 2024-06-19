@@ -9,7 +9,6 @@
   font-size: 2em;
   text-align: center;
 }
-
 #Contact p {
   text-align: center;
   padding-inline: 10%;
@@ -32,7 +31,6 @@ lord-icon {
   gap: 5%;
   padding: 0;
 }
-
 .social_links li a {
   padding: 15px 10px 5px 10px;
 }

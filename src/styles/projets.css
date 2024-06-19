@@ -5,21 +5,19 @@
   color: var(--text-color);
   background-color: var(--primary-color);
 }
+#Projets h1 {
+  text-align: center;
+  font-size: 2em;
+}
 
 .apparition {
   opacity: 0;
   transform: translateY(-30px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
-
 .apparition.visible {
   opacity: 1;
   transform: none;
-}
-
-#Projets h1 {
-  text-align: center;
-  font-size: 2em;
 }
 
 .all_cards {
@@ -47,6 +45,7 @@
   z-index: 0;
 }
 .card p {
+  text-align: center;
   padding-inline: 25px;
   font-size: 18px;
 }
@@ -117,10 +116,10 @@ a {
   font-weight: bold;
   margin-top: 36px;
   padding: 16px 32px;
+  width: 70%;
   cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
   z-index: 2;
 }
-
 .container img {
   width: 100%;
   height: auto;
@@ -152,7 +151,6 @@ a {
   box-shadow: var(--webkit-box-shadow), inset 0 0 8px black;
   border-radius: 15px;
 }
-
 .link_site p {
   cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
   padding-inline: 13px;
@@ -160,7 +158,6 @@ a {
   color: var(--text-color);
   text-decoration: none;
 }
-
 .link_site lord-icon {
   cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
   width: 38px;
@@ -173,7 +170,6 @@ a {
   margin-top: 0;
   display: inline-block;
 }
-
 .link_repo_github p {
   cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
   padding-inline: 5px;
@@ -182,7 +178,7 @@ a {
   text-decoration: none;
 }
 
-.fa-brands {
+.fa-github {
   cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
   margin-left: 10px;
   font-size: 22px;
@@ -221,7 +217,6 @@ a {
     grid-template-rows: 1fr 1fr;
     font-size: 18px;
     margin-top: 35px;
-    width: 70%;
   }
 
   .container::after {
@@ -241,7 +236,6 @@ a {
   .link_repo_github {
     margin-top: 5px;
   }
-
   .link_repo_github p {
     cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
     padding-inline: 5px;
@@ -266,7 +260,6 @@ a {
     grid-template-rows: 1fr 1fr;
     font-size: 20px;
     margin-top: 45px;
-    width: 70%;
   }
 
   .container::after {
@@ -279,6 +272,5 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
 }
-}
-  

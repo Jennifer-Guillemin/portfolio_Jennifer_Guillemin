@@ -2,19 +2,14 @@
   padding: 5%;
   color: var(--text-color);
   background-color: var(--third-color);
-}
-
-#Competences {
   opacity: 0;
   transform: translateY(-30px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
-
 #Competences.visible {
   opacity: 1;
   transform: none;
 }
-
 #Competences h1 {
   display: grid;
   justify-content: center;
