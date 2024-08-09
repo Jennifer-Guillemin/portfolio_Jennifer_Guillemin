@@ -22,7 +22,7 @@ function Accueil() {
           }
         });
       },
-      { threshold: 0.20 } // Déclenche le rappel lorsque 20% de l'élément est visible
+      { threshold: 0.2 } // Déclenche le rappel lorsque 20% de l'élément est visible
     );
     // Commence à observer chaque élément sélectionné
     elements.forEach((element) => observer.observe(element));
