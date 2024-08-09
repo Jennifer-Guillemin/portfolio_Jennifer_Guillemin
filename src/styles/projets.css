@@ -68,6 +68,14 @@ a {
   width: 90%;
 }
 
+.TinyHouses {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 90%;
+  border-radius: 20px;
+}
+
 .container:hover .middle {
   opacity: 1;
 }

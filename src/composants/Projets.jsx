@@ -4,6 +4,7 @@ import Booki from "../assets/images/booki.PNG";
 import Ohmyfood from "../assets/images/Ohmyfood.jpg";
 import Printit from "../assets/images/printit.webp";
 import NinaCarducci from "../assets/images/ninacarducci.PNG";
+import TinyHouses from "../assets/images/Site_TinyHouses.PNG";
 import TextHover from "./TextHover";
 import "../styles/projets.css";
 
@@ -318,6 +319,30 @@ function Projets() {
                 </p>
               </a>
             </div>
+          </article>
+
+          <article className="card">
+            <h2>Projet 6 en cours</h2>
+            <img
+              className="TinyHouses"
+              src={TinyHouses}
+              alt="A propos des Tiny Houses"
+            />
+            <p>
+              Implantée dans le secteur des 1000 étangs, dans les Vosges du Sud,
+              notre Tiny JOY vous accueille jusqu'à 5 personnes pour vivre un
+              moment de détente insolite. Elle est toute autonome. Nous sommes
+              situés à Beulotte-Saint-Laurent à 15 minutes de Faucogney et la
+              Mer, Servance, Le Thillot, Rupt-sur-Moselle 30 minutes de
+              Remiremont, Luxeuil les Bains, Bussang. Nous vous proposons
+              également la tiny des Rêves qui peut accueillir 2 personnes et
+              notre caravane vintage prévue pour 2 personnes.
+            </p>
+            <ul className="langages">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+            </ul>
           </article>
         </div>
       </div>
