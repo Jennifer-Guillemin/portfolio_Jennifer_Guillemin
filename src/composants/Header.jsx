@@ -7,14 +7,17 @@ function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
+  // Fonction pour basculer l'état du menu (ouvert/fermé)
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Fonction pour fermer le menu lorsqu'un lien est cliqué
   const handleLinkClick = () => {
     setIsMenuOpen(false);
   };
 
+  // Fonction pour basculer entre le thème sombre/thème clair
   const toggleTheme = () => {
     setIsDarkTheme(!isDarkTheme);
   };
