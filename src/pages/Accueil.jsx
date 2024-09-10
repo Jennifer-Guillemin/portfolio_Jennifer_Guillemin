@@ -7,26 +7,23 @@ function Accueil() {
   useEffect(() => {
     const aproposElements = document.querySelectorAll(".Apropos");
     const citationElements = document.querySelectorAll(".citation");
-    // Combiner les deux NodeLists en une seule liste
-    const elements = [...aproposElements, ...citationElements];
-    //si aucun élément n'est trouvé, arrêt de l'exécution de la fonction
-    if (elements.length === 0) return;
+    const elements = [...aproposElements, ...citationElements]; // Combine les NodeLists en un tableau unique d'éléments.
+
+    if (elements.length === 0) return; // Si aucun élément à observer, arrête l'exécution du hook.
+
     const observer = new IntersectionObserver(
       (entries, observer) => {
         entries.forEach((entry) => {
-          // Vérifie si l'élément est en intersection avec le viewport
           if (entry.isIntersecting) {
             entry.target.classList.add("visible");
-            // Arrête d'observer l'élément après lui avoir ajouté la classe
-            observer.unobserve(entry.target);
+            observer.unobserve(entry.target); // Arrête d'observer cet élément (puisqu'il a déjà été traité).
           }
         });
       },
-      { threshold: 0.2 } // Déclenche le rappel lorsque 20% de l'élément est visible
+      { threshold: 0.2 } // Déclenche le rappel lorsque 20% de l'élément est visible.
     );
-    // Commence à observer chaque élément sélectionné
+    // Commence à observer chaque élément sélectionné.
     elements.forEach((element) => observer.observe(element));
-    // Nettoie la fonction d'effet en arrêtant l'observation de tous les éléments
     return () => observer.disconnect();
   }, []); // Déclenche l'effet seulement la première fois qu'on affiche le composant
 
