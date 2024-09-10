@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "../styles/skills.css";
 
 function Skills() {
@@ -31,9 +31,7 @@ function Skills() {
             HTML <i className="fa-brands fa-html5"></i>
           </div>
           <div className="progress-bar">
-            <div className="progress" style={{ width: `${95}%` }}>
-              95%
-            </div>
+            <div className="progress" style={{ width: `${88}%` }}></div>
           </div>
         </div>
 
@@ -42,9 +40,7 @@ function Skills() {
             CSS <i className="fa-brands fa-css3-alt"></i>
           </div>
           <div className="progress-bar">
-            <div className="progress" style={{ width: `${95}%` }}>
-              95%
-            </div>
+            <div className="progress" style={{ width: `${88}%` }}></div>
           </div>
         </div>
 
@@ -53,9 +49,7 @@ function Skills() {
             JavaScript <i className="fa-brands fa-js"></i>
           </div>
           <div className="progress-bar">
-            <div className="progress" style={{ width: `${75}%` }}>
-              75%
-            </div>
+            <div className="progress" style={{ width: `${70}%` }}></div>
           </div>
         </div>
 
@@ -64,9 +58,7 @@ function Skills() {
             React <i className="fa-brands fa-react"></i>
           </div>
           <div className="progress-bar">
-            <div className="progress" style={{ width: `${70}%` }}>
-              70%
-            </div>
+            <div className="progress" style={{ width: `${50}%` }}></div>
           </div>
         </div>
       </div>
