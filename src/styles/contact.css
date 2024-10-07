@@ -98,5 +98,10 @@
   }
   #Contact p {
     padding-inline: unset;
+    font-size: 18px;
+  }
+
+  .social_links .icon {
+    font-size: 35px;
   }
 }

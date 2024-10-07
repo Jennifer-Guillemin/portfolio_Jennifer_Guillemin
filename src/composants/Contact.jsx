@@ -52,13 +52,13 @@ function Contact() {
           à m'envoyer un e-mail.
         </p>
         <form ref={form} onSubmit={sendEmail} className="contact-form">
-          <label>Nom</label>
+          <label>Nom :</label>
           <input type="text" name="user_name" required />
 
-          <label>Email</label>
+          <label>Email :</label>
           <input type="email" name="user_email" required />
 
-          <label>Message</label>
+          <label>Message :</label>
           <textarea name="message" required />
 
           <button type="submit">Envoyer</button>

@@ -114,7 +114,7 @@ body {
 #Presentation {
   display: flex;
   text-align: center;
-  padding: 5%;
+  padding: 3%;
   color: var(--text-color);
   background-color: var(--third-color);
 }
@@ -199,7 +199,7 @@ body {
   }
 
   .citation {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   #Presentation {
