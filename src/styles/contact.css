@@ -17,11 +17,53 @@
   font-style: italic;
 }
 
-lord-icon {
-  width: 45px;
-  height: 45px;
-  vertical-align: middle;
-  margin-left: 8px;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-form label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-form input {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.contact-form button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAsQAAALEBxi1JjQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAG/SURBVEiJvdU9axVREAbg5yYxSOKVoBcRixSKFkKwDjZqm0YUBP0Fik3w2z9gLyI2aqUEPwo/IKCFVqa1sBNTWChI0HgTMGiRWOwsnBz37o3eiy8Muzv7zjtnZs/sadgYGpjGx3gex3WsbTC+FgN4EGK/wtYwE+96xtUQrLLLvYo3sVSTYBlb6wS6lXg8knTCFhztJcH+Lu+7chrJ/Q6cxhT2YAUj2JZwZuJ6MvF9C+5mfMAsbmEhTTSF7zr3urTpsG68JRyDoVjhM33acoEmHqE1ENnm+iheYg7Lg7iGUxWE+7ih6PEItuMefijKf4/nuIk2DmTx4xiGw6r7+A7nMBnE0SR4NHyTOB/cKo1DZcDjDoTSVnAmSXA2fHUxD9NymnjdJeAE9mFv3NdxX6kY0E24oti/ecBbjOFT2BieVvAWFP+noVw8xd0s6Ce+4HPiu41dWMy4d+qEKSa7nQW9wKXMtxptepn5F63/O/yBnRVl/621UsF8evtyQtWhnOx/XX1b1qK8glU8qVnAbFgnlDurFi1MWD+dX3EBg4oteDF86dRPyPpP/Rc/gt2YxxvFYZ9iGAcVZ8e8YlD/P34DA9DOx5XPnb4AAAAASUVORK5CYII=),
+    auto;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+.loading {
+  color: #f39c12; /* Couleur d'alerte */
+  font-weight: bold;
 }
 
 .social_links {

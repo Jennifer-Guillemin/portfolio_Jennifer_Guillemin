@@ -45,11 +45,14 @@
   z-index: 0;
 }
 .card p {
+  display: flex;
+  align-items: center;
   text-align: center;
   padding-inline: 25px;
   font-size: 18px;
 }
 .card div a {
+  display: flex;
   padding-inline: 4px;
   font-size: 28px;
   vertical-align: middle;
@@ -169,6 +172,7 @@ a {
 .link_site lord-icon {
   cursor: url("../assets/logo&icon/sakuranoir.png"), auto;
   width: 38px;
+  padding-left: 8px;
 }
 
 .link_repo_github {
