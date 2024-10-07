@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.6aede621.css",
-    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.93b04cca.js",
+    "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.13b46b84.css",
+    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.4e32826d.js",
     "static/js/453.1407b060.chunk.js": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js",
     "static/media/Site_TinyHouses.PNG": "/portfolio_Jennifer_Guillemin/static/media/Site_TinyHouses.ae509928e70648dce0e2.PNG",
     "static/media/bouquet.png": "/portfolio_Jennifer_Guillemin/static/media/bouquet.2030f54515eaea9204ba.png",
@@ -18,12 +18,12 @@
     "static/media/lighthouse.png": "/portfolio_Jennifer_Guillemin/static/media/lighthouse.b6fb6720de13d7bca21c.png",
     "static/media/logo.jpg": "/portfolio_Jennifer_Guillemin/static/media/logo.ec6a7b10593b93369202.jpg",
     "index.html": "/portfolio_Jennifer_Guillemin/index.html",
-    "main.6aede621.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.6aede621.css.map",
-    "main.93b04cca.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.93b04cca.js.map",
+    "main.13b46b84.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.13b46b84.css.map",
+    "main.4e32826d.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.4e32826d.js.map",
     "453.1407b060.chunk.js.map": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aede621.css",
-    "static/js/main.93b04cca.js"
+    "static/css/main.13b46b84.css",
+    "static/js/main.4e32826d.js"
   ]
 }
