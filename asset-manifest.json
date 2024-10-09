@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio_Jennifer_Guillemin/static/css/main.13b46b84.css",
-    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.4e32826d.js",
+    "main.js": "/portfolio_Jennifer_Guillemin/static/js/main.7f8abe14.js",
     "static/js/453.1407b060.chunk.js": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js",
     "static/media/Site_TinyHouses.PNG": "/portfolio_Jennifer_Guillemin/static/media/Site_TinyHouses.ae509928e70648dce0e2.PNG",
     "static/media/bouquet.png": "/portfolio_Jennifer_Guillemin/static/media/bouquet.2030f54515eaea9204ba.png",
     "static/media/bouquetsombre.png": "/portfolio_Jennifer_Guillemin/static/media/bouquetsombre.1e174f1805bddc03ff1b.png",
-    "static/media/Jennifer_Guillemin_CV.pdf": "/portfolio_Jennifer_Guillemin/static/media/Jennifer_Guillemin_CV.cc696f003f3749aeaaeb.pdf",
+    "static/media/Jennifer_Guillemin_CV.pdf": "/portfolio_Jennifer_Guillemin/static/media/Jennifer_Guillemin_CV.0d5020f444f936723331.pdf",
     "static/media/Ohmyfood.jpg": "/portfolio_Jennifer_Guillemin/static/media/Ohmyfood.7117d0406a6abbc82d57.jpg",
     "static/media/ridingcities.PNG": "/portfolio_Jennifer_Guillemin/static/media/ridingcities.7b5f921cb2b6b7a903ff.PNG",
     "static/media/ninacarducci.PNG": "/portfolio_Jennifer_Guillemin/static/media/ninacarducci.4d630907b1776d10e994.PNG",
@@ -19,11 +19,11 @@
     "static/media/logo.jpg": "/portfolio_Jennifer_Guillemin/static/media/logo.ec6a7b10593b93369202.jpg",
     "index.html": "/portfolio_Jennifer_Guillemin/index.html",
     "main.13b46b84.css.map": "/portfolio_Jennifer_Guillemin/static/css/main.13b46b84.css.map",
-    "main.4e32826d.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.4e32826d.js.map",
+    "main.7f8abe14.js.map": "/portfolio_Jennifer_Guillemin/static/js/main.7f8abe14.js.map",
     "453.1407b060.chunk.js.map": "/portfolio_Jennifer_Guillemin/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13b46b84.css",
-    "static/js/main.4e32826d.js"
+    "static/js/main.7f8abe14.js"
   ]
 }
